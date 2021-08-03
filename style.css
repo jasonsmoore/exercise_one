@@ -1,14 +1,61 @@
 body {
-    background-color: #e85f5f;
+    background-color: #e17c7d;
 }
 
-.headline {
-    color: black;
+.loginbox {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(218, 218, 218);
+    margin: auto;
+    width: 563px;
+    box-shadow: 0px 0px 10px 0px #744142
 }
 
-div {
-    background-color: #ddd;
-    margin: 0 auto;
-    width: 50%;
-    box-shadow: 1px 1px #222;
+.user {
+    margin: 7px 100px 7px 100px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+.password {
+    margin: 7px 100px 7px 100px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: none;
+}
+
+.button {
+    margin: 20px 235px;
+    padding: 10px;
+    background-color: rgb(140, 211, 204);
+    border-style: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.signin {
+    padding: 25px 0px 5px 0px;
+    text-align: center;
+    color: rgb(153, 150, 150);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.checkbox {
+    border-style: none;
+    margin: 0 0 40px 65px;
+}
+
+::placeholder {
+    color: rgb(194, 185, 185);
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 150, 150);
+    font-size: 9pt;
+    text-align: center;
 }
