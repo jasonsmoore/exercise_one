@@ -1,0 +1,14 @@
+body {
+    background-color: #e85f5f;
+}
+
+.headline {
+    color: black;
+}
+
+div {
+    background-color: #ddd;
+    margin: 0 auto;
+    width: 50%;
+    box-shadow: 1px 1px #222;
+}
